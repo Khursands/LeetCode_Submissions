@@ -13,3 +13,6 @@ function lengthOfLongestSubstring(s) {
 
     return maxLength;
 }
+
+// Exported for the Jest test-suite; ignored by the LeetCode judge.
+if (typeof module !== 'undefined') module.exports = lengthOfLongestSubstring;

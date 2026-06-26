@@ -34,5 +34,8 @@ var myAtoi = function(s) {
     {
         return INT_MAX
     }
-    return result 
+    return result
 };
+
+// Exported for the Jest test-suite; ignored by the LeetCode judge.
+if (typeof module !== 'undefined') module.exports = myAtoi;

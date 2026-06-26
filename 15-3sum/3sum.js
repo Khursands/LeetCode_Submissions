@@ -35,3 +35,6 @@ function threeSum(nums) {
     }
     return result
 }
+
+// Exported for the Jest test-suite; ignored by the LeetCode judge.
+if (typeof module !== 'undefined') module.exports = threeSum;
